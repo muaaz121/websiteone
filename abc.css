@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Light background */
+}
+
+ul.navbar {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Dark background for navbar */
+}
+
+li {
+    float: left; /* Align items horizontally */
+}
+
+li a {
+    display: block; /* Make the whole area clickable */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Padding around links */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+li a:hover {
+    background-color: #4CAF50; /* Change background color on hover */
+}
+
+/* Active Link Style */
+li a.active {
+    background-color: #555; /* Darker background for the active link */
+}
+
+main {
+    padding: 20px; /* Padding for the main content */
+}
